@@ -1,0 +1,6 @@
+# The layer this bundle contributes to a profile. Installing the package with
+# `dsh plugin --profile <name> add dsh-plugin-rules` composes this row, so the
+# rules are attached without hand-editing the profile's own patch file.
+- insert:
+    - id: rules
+      name: dsh-plugin-rules
